@@ -1,0 +1,17 @@
+name: gmswitch
+main: gmswitch\gmswitch
+version: 2.0
+api: [1.10.0]
+load: POSTWORLD
+author: RoachHD
+description: Set different gamemodes for certain worlds
+website: http://katieball.me
+commands:
+ gms:
+  description: Main Command.
+  usage: "/gms set <gamemode> (world) -OR- /gms <include/exclude> <player>"
+  permission: gmswitch.command.gms
+permissions:
+ gmswitch.command.gms:
+  description: "Allows the user to set world gamemodes"
+  default: op
